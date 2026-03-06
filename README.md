@@ -139,3 +139,26 @@ When you create a string literal, Java checks the pool first — if the string e
 
 #what is oops?
 Object-Oriented Programming (OOP) is a programming concept that uses objects to represent real-world entities. Each object contains data (attributes) and behavior (methods). OOP supports Encapsulation, Inheritance, Polymorphism, and Abstraction, which make code modular, reusable, and easier to maintain.
+
+# what is Multithreading?
+Ans: multithreading is the technique through which we can cheive multitasking
+through multithreading we can utilize CPU time efficiently
+Multithreading in java is a process of executing multiple threads simultaneously
+
+Thread is lightweight  process( subprocess )
+by default every program is single threaded ( main thread is created by JVM)
+
+
+
+# Thread vs Process
+A process is an independent program in execution with its own memory space.
+A thread is the smallest unit of execution within a process and shares the process memory.
+Threads are lighter and faster, while processes are heavier but more isolated.
+
+
+
+#What is ocntext switching? 
+Context Switching is the process where the CPU switches from one process or thread to another process or thread so that multiple tasks can run on a single CPU.
+
+Since a CPU can execute only one task at a time, the operating system quickly switches between tasks. This switching is called context switching.
+
